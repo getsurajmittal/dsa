@@ -19,6 +19,7 @@ int main(){
         cout << i << " ";
     }
     selectionSort(arr);
+    cout << endl;
     cout << "array after sorting" << endl;
     for(int i : arr){
         cout << i << " ";

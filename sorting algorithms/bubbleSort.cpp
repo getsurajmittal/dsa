@@ -16,6 +16,7 @@ int main(){
     for(int i : arr){
         cout << i << " ";
     }
+    cout << endl;
     bubbleSort(arr);
     cout << "array after sorting" << endl;
     for(int i : arr){
